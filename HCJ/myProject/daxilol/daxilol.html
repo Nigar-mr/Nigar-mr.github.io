@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+	<style>
+		ul {
+		  list-style-type: none;
+		  margin: 0;
+		  padding: 0;
+		  overflow: hidden;
+		  background-color: #030394;
+		}
+		
+		li {
+		  float: left;
+		}
+		
+		li a {
+		  display: block;
+		  color: white;
+		  text-align: center;
+		  padding: 14px 16px;
+		  text-decoration: none;
+		}
+		
+		li a:hover:not(.active) {
+		  background-color: #111;
+		}
+		
+		.active {
+		  background-color: #16921b;
+		}
+		</style>
+</head>
+<body>
+        <header>
+                <ul>
+                  <li><a href="oyrenek.biz/Home">Home</a></li>
+                  <li><a href="oyrenek.biz/Yazicilar">Yazicilar</a></li>
+                  <li><a href="oyrenek.biz/Sairler">Sairler</a></li>
+                  <li><a href="oyrenek.biz/Bestekarlar">Bestekarlar</a></li>
+        
+                  </ul>
+                </header>
+
+        <form action="/action_page.php">
+            <div class="container">
+              <h1>Giris</h1>
+              <hr>
+
+              <label for="email"><b>Email*</b></label>
+              <input type="text" placeholder="Email-i daxil edin" name="email" required>
+              <br>
+
+              <label for="sifre"><b>Parol*</b></label>
+              <input type="password" placeholder="sifreni daxil edin" name="sifre" required>
+
+              <button type="submit" class="daxil ol">Daxil ol</button>
+              </div>
+
+</body>
+</html>

@@ -1,0 +1,74 @@
+.container{
+width:1200px;
+}
+
+.h1{
+   height:100px;
+   width:704px;
+   float: left;
+   padding-left: 301px;
+}
+
+.p{
+    text-align: center;
+    height:100px;
+    width:700px;
+}
+
+.center{
+background-color:#eeeeee;
+height:250px;
+width:680px;
+}
+
+.center .add1{
+    position: relative;
+    left: 50px;
+    top: 27px;
+    font-size: 29px;
+    text-align: center;
+    padding-right: 150px;
+
+}
+
+
+.bottom p{
+    position: relative;
+    top:439px;
+    left:300px;
+    height:100px;
+    width:700px;
+}
+
+.add2{
+    background-color: #eeeeee;
+    height: 139px;
+    width: 198px;
+    position: fixed;
+    top: 55px;
+    left: 50px;
+
+}
+
+.add2 p{
+    text-align: center;
+    padding-top:20px;
+    font-size: 23px;
+
+}
+
+.add3{
+    background-color: #999999;
+    height: 118px;
+    width: 227px;
+    position: absolute;
+    top: 406px;
+    left: 806px;
+}
+
+.add3 p{
+text-align: center;
+font-size:23px;
+left:20px;
+padding-top:20px;
+}

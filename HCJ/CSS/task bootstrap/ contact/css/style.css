@@ -1,0 +1,148 @@
+ .container{
+    margin:auto;
+    width:50%;
+    
+}
+.row {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-image: url("/Users/mac/Desktop/html/task bootstrap/portfolio/images/background-fon.jpg");
+}
+
+.navbar-brand{
+    background-color: #36b3a6;
+    border: 1px solid #36b3a6;
+    color:#ffffff !important;
+    font-size: 18px !important;
+    padding: 43px !important;
+    line-height: 2px !important;
+    font-size: 25px !important;
+}
+
+.navbar-default {
+    background-color: #ffffff !important;
+    border-color: rgba(0, 0, 0, 0.25) !important;
+  
+}
+
+.navbar {
+    margin-bottom: 0px !important;
+    font-size: 19px;
+    height: 90px;
+    
+
+}
+.contact{
+    color:#36b3a6;
+    border-bottom:2px solid  #e9e9e9;
+}
+.border{
+    border:1px solid #8080808a;
+    background-color: white;
+    padding:50px;
+}
+
+
+ input[type=text], select, textarea {
+    /* width: 154%; */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  } 
+   
+  input[type=submit] {
+    background-color: #36b3a6;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #36b3a6;
+
+  }
+
+  .btn btn-default{
+      background-color:  #36b3a6 !important;
+
+  }
+
+  .message{
+    padding-right: 470px;
+    padding-bottom: 211px;
+
+
+  }
+
+  .connect{
+    color: #36b3a6;
+    border-bottom: 3px solid rgba(0,0,0,.25);
+    font-size: 35px;
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 16px;
+  
+   }
+
+
+   .col-md-8 {
+       border:1px solid #d4d8d8;
+       padding: 50px;
+   }
+
+   .cat{
+    margin-bottom: 40px;
+    margin-right: 15px;
+    margin-left: 17px;    
+}
+
+.in{
+    margin-bottom: 40px;
+    margin-right: 0px;
+    margin-left: 7px;
+}
+
+.lasticon{
+    margin-bottom: 40px;
+    margin-right: 0px;
+    margin-left: 17px;
+    
+
+}
+.icon{
+    background-color: white;
+    width: 300px;
+    height: 200px;
+    margin-top: 66px;
+}
+
+.border{
+    border:1px solid grey;
+    background-color: white;
+    padding:50px;
+}
+
+.footer{
+    background-color: #2f3030;
+    padding: 50px;
+    width: 100%;
+    border-top: 9px solid #36b3a6;
+}
+
+.footerp{
+    color:lightgrey;
+    font-size:15px;
+    text-align: center;
+    
+
+}
+   
+

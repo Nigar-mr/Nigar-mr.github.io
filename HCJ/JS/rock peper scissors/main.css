@@ -1,0 +1,16 @@
+
+.card{
+    float: right;
+    background-color: yellowgreen;
+}
+
+.rock{
+    padding: 21px;
+    padding-bottom: 10px;
+}
+
+.peper{
+    padding-left: 90px;
+}
+
+

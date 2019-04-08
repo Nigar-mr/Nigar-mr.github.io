@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <script src="js/calculator.js"></script>
+
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="allborder">
+            <div>
+                <h1 class="text">CALCULATOR</h1>
+                <hr>
+            </div>
+            <div>
+                <form name="inputform">
+                <input class="type1" id="input2" type="text" placeholder="0" >
+            <input class="type2" id="input1" type="text" placeholder="0" >
+        </form>
+            </div>
+            <div class="row" id="result">
+                <form name="calc">
+                    <input type="text" id="answer" name="input3" value="" style="
+                    margin-top: 8px;
+                    width: 200px;
+                    padding: 6px;
+                    border-radius: 10px;
+                "> 
+                </form>
+            </div>
+         
+            <div class="number">
+                <button onclick="myFunction(this.id)" type="button" class="restart" 
+                    onclick="clearScreen()">CE</button>
+                <button onclick="myFunction(this.id)" type="button" class="bol" 
+                    onclick="getOperand('/')">/</button>
+                <button onclick="myFunction(this.id)" type="button" class="vur" 
+                    onclick="getOperand('*')">*</button>
+                <button onclick="myFunction(this.id)" type="button" class="plus-minus" 
+                    onclick="getOperand('+/-')">+/-</button>
+                <br>
+                <button onclick="myFunction(this.id)" type="button" class="one" id="1"
+                    onclick="getNumber(1)">1</button>
+                <button onclick="myFunction(this.id)" type="button" class="two" id="2"
+                    onclick="getNumber(2)">2</button>
+                <button onclick="myFunction(this.id)" type="button" class="three" id="3"
+                    onclick="getNumber(3)">3</button>
+                <button onclick="myFunctionplus()" type="button" class="plus">+</button>
+
+                <br>
+                <button onclick="myFunction(this.id)" type="button" class="four" id="4"
+                    onclick="getNumber(4)">4</button>
+                <button onclick="myFunction(this.id)" type="button" class="five" id="5"
+                    onclick="getNumber(5)">5</button>
+                <button onclick="myFunction(this.id)" type="button" class="six" id="6"
+                    onclick="getNumber(6)">6</button>
+                <button onclick="myFunction(this.id)" type="button" class="minus" 
+                    onclick="getOperand('-')">-</button>
+
+                <br>
+                <button onclick="myFunction(this.id)" type="button" class="seven" id="7"
+                    onclick="getNumber(7)">7</button>
+                <button onclick="myFunction(this.id)" type="button" class="eight" id="8"
+                    onclick="getNumber(8)">8</button>
+                <button onclick="myFunction(this.id)" type="button" class="nine" id="9"
+                    onclick="getNumber(9)">9</button>
+                <button onclick="myFunction(this.id)" type="button" class="percent" 
+                    onclick="getOperand('%')">%</button>
+
+
+                <br>
+                <button onclick="myFunction(this.id)" type="button" class="dot" id=","
+                    onclick="getOperand(',')">,</button>
+                <button onclick="myFunction(this.id)" type="button" class="zero" id="0"
+                    onclick="getNumber(0)">0</button>
+                <button onclick="myFunction()" class="beraber"  onclick="calculate()">=</button>
+
+
+
+
+
+            </div>
+        </div>
+
+
+    </div>
+    <script src="js/calculator.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,408 @@
+.container{
+    margin: auto;
+    width: 50%;
+    
+}
+
+
+@font-face {
+    font-family: Bebas;
+    src: url("/Users/mac/Desktop/html/task/font/BebasNeue Regular.otf");
+}
+
+.aditii{
+    background-color: white;
+    position: relative;
+    height: 41px;
+    width: 94px;
+    top: 18px;
+    left: 35px;
+}
+
+.style {
+font-style: italic;
+color: white;
+padding-block-start: 0px;
+height: 1px;
+
+}
+
+
+.ridge{
+    box-sizing: content-box;
+    width: 431px;
+    height: 18px;
+    padding: 3px;
+    border: 1px solid grey;
+    position: relative;
+    left: 388px;
+    top: -23px;
+
+}
+
+.shape{
+    position: relative;
+    bottom: 74px;
+    left: 1006px;
+}
+
+.shapep{
+    font-family: Bebas;
+    position: relative;
+    bottom: 106px;
+    left: 1058px;
+    font-size: 24px;
+    color: gray;
+    margin:0px;
+}
+
+.novbar  {
+    list-style: none;
+    background-color: #4ccfc1;
+    height:34.21px;
+    width: 1461px;
+    margin: 0;
+    /* width:100%; */
+}
+
+.novbar li {
+    font-family: Bebas;
+    text-align: center;
+    display: inline-block;
+    color: white;
+    padding-right: 12px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+}
+
+.novbar li::after{
+    content: "";
+    width: 1.5px;
+    top: 3px;
+    height: 14px;
+    display: inline-block;
+    background: white;
+    margin-left: 17px;
+}
+.none-line::after{
+    display: none !important;
+}
+
+.second {
+    background-color: #39c8b7;
+    height:440.17px;
+    width:1500px;
+    /* width: 100%; */
+    
+   
+    
+}
+
+.second img{
+    
+    height: 319.62px;
+    width: 254.89px;
+    position: relative;
+    left: 199px;
+    top: 50px;
+    
+}
+
+ .second h1 {
+    color: #ffffff;
+    position: relative;
+    left:550px;
+    bottom: 295px;
+    font-size: 36px;
+} 
+
+.second p{
+    color:#ffffff;
+    position: relative;
+    left:550px;
+    bottom: 291px;
+    font-size: 20px;
+
+}
+.second h2 {
+    color: white;
+    position: relative;
+    height: 52px;
+    width: 73px;
+    left: 568px;
+    bottom: 276px;
+    border: 3px solid white;
+    padding: 0em 1em;
+    padding-left: 50px;
+    border-radius: 9px;
+    font-size: 18px;
+    padding-bottom: 1px;
+    padding-top: 7px;
+}
+
+.third{
+background-color: white;
+height:189.05px;
+
+}
+
+.shoes{
+    position: relative;
+    top: 30px;
+    left: 100px;
+}
+
+.shoesli{
+    display: inline-block;
+    color: gray;
+    position: relative;
+    left: 256px;
+    bottom: 110px;
+    font-size: 22px;
+
+}
+
+.shoesli::after{
+    content: "";
+    width: 1px;
+    height: 10px;
+    display: inline-block;
+    background: grey;
+    margin-left: 90px;
+}
+
+.tshirt{
+position: relative;
+bottom:200px;
+left:500px;
+
+}
+
+.tshirtli{
+display:inline-block;
+color:gray;
+position: relative;
+left: 618px;
+font-size: 22px;
+bottom: 330px;
+
+}
+
+.tshirtli::after{
+    content: "";
+    width: 1px;
+    height: 10px;
+    display: inline-block;
+    background: grey;
+    margin-left: 90px;
+
+}
+
+.short{
+position: relative;
+bottom: 420px;
+left: 978px;
+
+
+}
+
+.shortli{
+    
+    display: inline-block;
+    color: gray;
+    position: relative;
+    left: 1050px;
+    bottom: 545px;
+    font-size: 22px;
+
+}
+
+.featured{
+    background-color: #39c9b6;
+    height: 64.65px;
+    width:1500px;
+}
+
+.featured p{
+    color: white;
+    position: relative;
+    top: 22px;
+    left: 103px;
+    font-size: 21px;
+}
+
+.red{
+position: relative;
+height:126px;
+width: 189px;
+left: 164px;
+top: 65px;
+border:1px solid grey;
+padding-top:15px;
+padding-bottom: 94px;
+padding-left:20px;
+padding-right: 15px;
+border-bottom-color: #3cc395;
+border-bottom-width: thick;
+
+}
+
+.redp{
+    color:gray;
+    position: relative;
+    font-size: 22px;
+    left: 190px;
+    top: -44px;
+    
+
+}
+
+
+.levisimg{
+    width: 110.79px;
+    height: 114.58px;
+    position: relative;
+    bottom: 272px;
+    left: 476px;
+    border: 1px solid grey;
+    padding-top: 28px;
+    padding-bottom: 92px;
+    padding-right: 54px;
+    padding-left: 60px;
+    border-bottom-color: #3cc395;
+    border-bottom-width: thick;
+
+}
+
+.levisp{
+    color:gray;
+    position: relative;
+    font-size: 22px;
+    left: 502px;
+    bottom: 381px;
+}
+
+.shoeimg{
+
+    width: 110.79px;
+    height: 115.58px;
+    position: relative;
+    bottom: 610px;
+    left: 786px;
+    border: 1px solid grey;
+    padding-top: 28px;
+    padding-bottom: 92px;
+    padding-right: 54px;
+    padding-left: 60px; 
+    border-bottom-color: #3cc395;
+    border-bottom-width: thick;
+}
+
+.shoep{
+    color:gray;
+    position: relative;
+    font-size: 22px;
+    left: 822px;
+    bottom: 718px;
+}
+
+.bagimg{
+
+    position: relative;
+    height: 126px;
+    width: 189px;
+    left: 164px;
+    bottom: 670px;
+    border: 1px solid grey;
+    padding-top: 15px;
+    padding-bottom: 94px;
+    padding-left: 20px;
+    padding-right: 15px;
+    border-bottom-color: #3cc395;
+    border-bottom-width: thick;
+
+}
+
+.bagp{
+    color: gray;
+    position: relative;
+    font-size: 22px;
+    left: 190px;
+    bottom: 780px;
+}
+
+.wbagimg{
+
+    width: 110.79px;
+    height: 114.58px;
+    position: relative;
+    bottom: 1010px;
+    left: 476px;
+    border: 1px solid grey;
+    padding-top: 28px;
+    padding-bottom: 92px;
+    padding-right: 54px;
+    padding-left: 60px;
+    border-bottom-color: #3cc395;
+    border-bottom-width: thick;
+}
+
+.wbagp{
+    color: gray;
+    position: relative;
+    font-size: 22px;
+    left: 502px;
+    bottom: 1120px;
+}
+
+.shortimg{
+    position: relative;
+    bottom: 1351px;
+    left: 786px;
+    border: 1px solid grey;
+    padding-top: 28px;
+    padding-bottom: 88px;
+    padding-right: 73px;
+    padding-left: 86px;
+    border-bottom-color: #3cc395;
+    border-bottom-width: thick;
+}
+
+.shortp{
+    color: gray;
+    position: relative;
+    font-size: 22px;
+    left: 820px;
+    bottom: 1461px;
+}
+
+ .row{
+    background-color: #4ccfc1;
+    height:1474.51px;
+    width: 1500px;
+    position: relative;
+    bottom:1400px;
+}
+
+
+.footerp1{
+    color:white;
+    margin-left: 20px;
+}
+
+.footerh1{
+    color:white;
+    margin-left:20px;
+}
+
+.footerh2{
+    color:white;
+    margin-left: 350px;
+}
+
+.footerp2{
+    color:white;
+    margin-left: 350px;
+}
+
+

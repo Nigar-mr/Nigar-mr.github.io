@@ -1,0 +1,275 @@
+.container{
+    width:100%;
+    margin:350px;
+    margin-top: 0px;
+   
+   
+}
+
+#result{
+    height: 25px;
+    width: 200px;
+    border-radius: 8px;
+    margin-left: 20px;
+}
+
+
+
+#input1{
+    width:120px;
+    border-radius: 10px
+}
+#input2{
+    width:120px;
+    border-radius: 10px
+}
+/* .result{
+    width:250px;
+} */
+
+.allborder{
+    border:3px solid brown;
+    padding: 33px;
+    width: 305px;
+    background-color: #000000d6;
+}
+
+.text{
+    color:white;
+}
+
+#plus{
+    padding:20px;
+    margin:5px;
+    background-color: orange;
+    border-radius:45%;
+    color:white;
+    width:31px;
+    height:31px;
+    text-align: center;
+
+}
+
+#minus{
+    padding:20px;
+    margin:5px;
+    background-color: orange;
+    border-radius:45%;
+    color:white;
+    width:31px;
+    height:31px;
+    text-align: center;
+}
+
+#result{
+    padding: 16px;
+    margin: 5px;
+    background-color: green;
+    border-radius: 50%;
+    width: 100px;
+    text-align: center;
+
+    
+}
+
+
+#vur{
+    padding:20px;
+    margin:5px;
+    background-color: orange;
+    border-radius:45%;
+    color:white;
+    width:31px;
+    height:31px;
+    text-align: center;
+
+}
+
+#bol{
+    padding:20px;
+    margin:5px;
+    background-color: orange;
+    border-radius:45%;
+    color:white;
+    width:31px;
+    height:31px;
+    text-align: center;
+
+}
+
+
+
+.number{
+    padding:15px;
+}
+
+#restart{
+    padding:20px;
+    margin:5px;
+    background-color: red;
+    border-radius:45%;
+    color:white;
+    width:31px;
+    height:31px;
+    text-align: center;
+}
+
+#percent{
+    padding:20px;
+    margin:5px;
+    background-color: orange;
+    border-radius:45%;
+    color:white;
+    width:31px;
+    height:31px;
+    text-align: center;
+}
+    
+#plus-minus{
+        padding:20px;
+        margin:5px;
+        background-color: orange;
+        border-radius:45%;
+        color:white;
+        width:31px;
+        height:31px;
+        text-align: center;
+    
+}
+
+#one{
+    padding:20px;
+    margin:5px;
+    background-color: #3c3a3ade;
+    border-radius: 8px;
+    color:white;
+    width:31px;
+    height:31px;
+    text-align:center;
+
+}
+
+#two{
+    padding:20px;
+    margin:5px;
+    background-color: #3c3a3ade;
+    border-radius: 8px;
+    color:white;
+     width:31px;
+    height:31px;
+    text-align:center;
+
+}
+
+#three{
+    padding:20px;
+    margin:5px;
+    background-color: #3c3a3ade;
+    border-radius: 8px;
+    color:white;
+     width:31px;
+    height:31px;
+    text-align:center;
+
+}
+
+#four{
+    padding:20px;
+    margin:5px;
+    background-color: #3c3a3ade;
+    border-radius: 8px;
+    color:white;
+     width:31px;
+    height:31px;
+    text-align:center;
+
+}
+
+#five{
+    padding:20px;
+    margin:5px;
+    background-color: #3c3a3ade;
+    border-radius: 8px;
+    color:white;
+     width:31px;
+    height:31px;
+    text-align:center;
+
+}
+
+#six{
+    padding:20px;
+    margin:5px;
+    background-color: #3c3a3ade;
+    border-radius: 8px;
+    color:white;
+     width:31px;
+    height:31px;
+    text-align:center;
+
+}
+
+#seven{
+    padding:20px;
+    margin:5px;
+    background-color: #3c3a3ade;
+    border-radius: 8px;
+    color:white;
+     width:31px;
+    height:31px;
+    text-align:center;
+
+}
+
+#eight{
+    padding:20px;
+    margin:5px;
+    background-color: #3c3a3ade;
+    border-radius: 8px;
+    color:white;
+     width:31px;
+    height:31px;
+    text-align:center;
+
+}
+
+#nine{
+    padding:20px;
+    margin:5px;
+    background-color: #3c3a3ade;
+    border-radius: 8px;
+    color:white;
+     width:31px;
+    height:31px;
+    text-align:center;
+
+}
+
+#zero{
+    padding:20px;
+    margin:5px;
+    background-color: #3c3a3ade;
+    border-radius: 8px;
+    color:white;
+     width:31px;
+    height:31px;
+    text-align:center;
+
+}
+
+#dot{
+    padding:20px;
+    margin:5px;
+    background-color: #3c3a3ade;
+    border-radius: 8px;
+    color:white;
+     width:31px;
+    height:31px;
+    text-align:center;
+
+}
+
+
+
+
+ 

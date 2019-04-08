@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="allborder">
+            <div>
+                <h1 class="text">CALCULATOR</h1>
+                <hr>
+            </div>
+            <div>
+                <form name="inputform">
+                    <input id="input1" type="text" placeholder="0">
+                    <input id="symbol" style="width:10px">
+                    <input id="input2" type="text" placeholder="0">
+                </form>
+            </div>
+            <div class="row">
+                <form name="calc">
+                    <input type="text" id="answer" placeholder="0" value="" style="
+                    margin-top: 8px;
+                    width: 200px;
+                    padding: 6px;
+                    border-radius: 10px;
+                ">
+                </form>
+            </div>
+
+            <div class="number">
+                <button type="button" id="restart">CE</button>
+                <button type="button" id="bol">/</button>
+                <button type="button" id="vur">*</button>
+                <button type="button" id="plus-minus">+/-</button>
+                <br>
+                <button type="button" id="one">1</button>
+                <button type="button" id="two">2</button>
+                <button type="button" id="three">3</button>
+                <button type="button" id="plus">+</button>
+
+                <br>
+                <button type="button" id="four">4</button>
+                <button type="button" id="five">5</button>
+                <button type="button" id="six">6</button>
+                <button type="button" id="minus">-</button>
+
+                <br>
+                <button type="button" id="seven">7</button>
+                <button type="button" id="eight">8</button>
+                <button type="button" id="nine">9</button>
+                <button type="button" id="percent">%</button>
+
+
+                <br>
+                <button type="button" id="dot">,</button>
+                <button type="button" id="zero" value="0">0</button>
+                <button id="result" onclick="calculate(this)">=</button>
+
+            </div>
+        </div>
+    </div>
+    <script src="calc.js"></script>
+
+</body>
+
+</html>
