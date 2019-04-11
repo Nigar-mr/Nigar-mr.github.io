@@ -1,0 +1,104 @@
+
+.container{
+    width:100%;
+    margin:auto;
+}
+.background{
+    background-image: url("/Users/mac/Desktop/HCJ/myTecTasks/CrystallCollector/images/Simple-Background-Images-25.png");
+    width: 100%;
+}
+
+.crystalcollector{
+    color: white;
+    background-color: orange;
+    width: 360px;
+    font-size: 40px;
+    padding: 25px;
+    margin-left: 20px;
+}
+
+.text{
+    background-color:wheat;
+    width: 500px;
+    margin-left: 20px;
+    font-size: 20px;
+    color:green;
+
+}
+
+.randomarea{
+    background-color: green;
+    width: 170px;
+    height:90px;
+    margin-left: 20px;
+    font-size: 30px;
+
+}
+
+.result{
+    background-color: aqua;
+    width: 100px;
+    height: 90px;
+    margin-left: 210px;
+    position: relative;
+    bottom: 44px;
+}
+
+.crystal1{
+    width: 80px;    
+    margin-left: 20px;
+}
+
+.crystal2{
+    width: 80px;   
+    margin-left: 10px; 
+
+}
+.crystal3{
+    width: 80px;    
+    margin-left: 10px; 
+
+}
+
+.crystal4{
+    width: 80px;    
+    margin-left: 10px; 
+
+}
+
+.score{
+    background-color: aquamarine;
+    width:50px;
+    margin-left: 20px;
+    width: 180px;
+    height: 25px;
+    color:white;
+
+
+}
+
+.footer{
+    background-color: aquamarine;
+    width:180px;
+    margin-left: 20px;
+    height:100px;
+    color:white;
+    font-size:30px;
+
+
+}
+
+.play {
+    margin-left: 70px;
+    font-size: 20px;
+    margin-bottom: 18px;
+    background-color: blueviolet;
+
+}
+
+.restart{
+    margin-left: 70px;
+    font-size: 20px;
+    margin-bottom: 18px;
+    background-color: blueviolet;
+}

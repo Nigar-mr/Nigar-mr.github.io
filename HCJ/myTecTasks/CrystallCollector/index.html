@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CrystallCollector</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="background">
+            <div>
+                <h1 class="crystalcollector">CrystalsCollector!</h1>
+            </div>
+            <div>
+                <p class="text">
+                    Your game will hide this amount until the player clicks a crystal.
+                    <br>
+
+                    * When they do click one, update the player's score counter.
+                    <br>
+                    * The player wins if their total score matches the random number from the beginning of the game.
+                    <br>
+                    * The player loses if their score goes above the random number.
+                    <br>
+
+                    * The game restarts whenever the player wins or loses.
+                    <br>
+
+                    * When the game begins again, the player should see a new random number. Also, all the crystals will
+                    <br>
+                    have four new hidden values. Of course, the user's score (and score counter) will reset to zero.
+                </p>
+            </div>
+            <div style="height: 28px">
+                <p class="randomarea"></p>
+            </div>
+            <div class="result">
+                <p class="win">Wins:</p>
+                <p class="losses">Losses:</p>
+                <p class="losewin"></p>
+            </div>
+            <div class="img">
+                <img class="crystal1"
+                    src="images/stock-vector-jewerly-cartoon-stone-gem-for-game-vector-illustration-1027679362.jpg">
+                <img class="crystal2"
+                    src="images/stock-vector-jewerly-cartoon-stone-gem-for-game-vector-illustration-1027679356.jpg">
+                <img class="crystal3"
+                    src="images/stock-vector-jewerly-cartoon-stone-gem-for-game-vector-illustration-781227094.jpg">
+                <img class="crystal4"
+                    src="images/stock-vector-jewerly-cartoon-stone-gem-for-game-vector-illustration-776488027.jpg">
+            </div>
+            <div>
+                <p class="score">Your total score is:</p>
+            </div>
+            <div>
+                <p class="footer">0</p>
+            </div class="button">
+            <button class="play">Play</button>
+            <button class="restart">Restart</button>
+
+
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
