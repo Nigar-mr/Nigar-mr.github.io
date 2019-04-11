@@ -1,0 +1,113 @@
+
+.container{
+  
+    margin:auto;
+    width:auto;
+}
+
+.background{
+    margin-top: 10px;
+    background-image: url("/Users/mac/Desktop/HCJ/myTecTasks/Trivia/image/Screenshot 2019-04-11 at 11.18.11.png");
+    /* padding: 150px; */
+    padding:430px;
+}
+
+
+/* .start{
+    margin-left: 46%;
+    margin-top: 65%;
+    background-color: #26536b00;
+    font-size: 47px;
+    color: white;
+    padding-right: 17px;
+    padding-left: 15px;
+    border: 0px;
+
+
+} */
+
+.start{
+   
+    background-color: #26536b00;
+    font-size: 47px;
+    color: white;
+    border: 0px;
+    position: relative;
+    top: 300px;
+    left: 140px;
+}
+
+.question1{
+    background-color: wheat;
+    width: 720px;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    right: 179px;
+    bottom: 70px;
+    border-radius: 10px;
+}
+.question2{
+    background-color: wheat;
+    width: 720px;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    right: 179px;
+    bottom: 70px;
+    border-radius: 10px;
+}
+
+.a{
+    background-color: wheat;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.b{
+    background-color: wheat;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.c{
+    background-color: wheat;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.d{
+    background-color: wheat;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.photo{
+    padding: 25px;
+    width: 25pc;
+}
+
+.correct_answer1{
+    background-color: wheat;
+    font-size: 25px;
+    width: 420px;
+}
+.correct_answer2{
+    background-color: wheat;
+    font-size: 25px;
+    width: 420px;
+}
+
+.next{
+    font-size: 30px;
+    background-color: #0a9e90;
+    color: white;
+}
