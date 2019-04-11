@@ -20,7 +20,7 @@ $("document").ready(function (e) {
     $(".second_background").hide();
     $(".start").click(function (e) {
         $(".start").hide();
-        $(".background").css("background-image", "url('/Users/mac/Desktop/HCJ/myTecTasks/Trivia/image/635810c362b0887.png')");
+        $(".background").css("background-image", "url('https://nigar-mr.github.io/HCJ/myTecTasks/Trivia/image/635810c362b0887.png')");
         $(".background").css("background-size", "cover");
         $(".question").show();
         $(".question1").html(question1);
